@@ -111,6 +111,7 @@ template <typename TN> TN safeAdd_quick( TN addend_left, TN addend_right )
 	}
 	
 	return sum;
+	
 }
 
 template <typename TN> TN safeAdd_max( TN addend_left, TN addend_right, TN maxval )
@@ -173,4 +174,5 @@ template <typename TN> TN safeAdd( TN addend_left, TN addend_right, TN &overage,
 	overage = params.overage;
 	
 	return sum;
+	
 }
